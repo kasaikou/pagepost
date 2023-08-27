@@ -22,7 +22,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
     });
 
   } else if (info.menuItemId === "quoteTweet") {
-    const tweetText = `${tab.title} ${url}`;
+    const tweetText = `${tab.title} ${tab.url}`;
     chrome.tabs.create({
       url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`
     });
