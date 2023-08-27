@@ -1,8 +1,8 @@
 {
     "tweetWithUrlAndText": {
-        "message": "Tweet with URL and selected text"
+        "message": "Quote tweet with selected text in this page"
     },
     "tweetWithUrl": {
-        "message": "Tweet with URL"
+        "message": "Quote tweet with this page"
     }
 }

@@ -1,5 +1,5 @@
-const tweetWithUrl = chrome.i18n.getMessage("tweetWithUrl")
-const tweetWithUrlAndText = chrome.i18n.getMessage("tweetWithUrlAndText")
+const tweetWithUrl = chrome.i18n.getMessage("quoteTweetWithUrl")
+const tweetWithUrlAndText = chrome.i18n.getMessage("quoteTweetWithUrlAndText")
 
 chrome.runtime.onInstalled.addListener(function() {
   chrome.contextMenus.create({
