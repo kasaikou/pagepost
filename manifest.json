@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "permissions": ["contextMenus", "activeTab"],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js",
+    "type": "module"
   },
   "default_locale": "en"
 }
