@@ -16,7 +16,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
   if (info.menuItemId === "quoteTweetWithText") {
-    const tweetText = `> ${info.selectionText}\n${tab.title} ${tab.url}`;
+    const tweetText = `> ${info.selectionText}\n\n${tab.title} ${tab.url}`;
     chrome.tabs.create({
       url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`
     });
