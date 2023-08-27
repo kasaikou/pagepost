@@ -6,5 +6,6 @@
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  }
+  },
+  "default_locale": "en"
 }
