@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
   if (info.menuItemId === "quoteTweet") {
-    const tweetText = info.selectionText == undefined ? `${tab.title} ${url}` : `> ${info.selectionText}\n${tab.title} ${url}`;
+    const tweetText = info.selectionText == undefined ? `${tab.title} ${url}` : `> ${info.selectionText}\n${tab.title} ${tab.url}`;
     chrome.tabs.create({
       url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`
     });
