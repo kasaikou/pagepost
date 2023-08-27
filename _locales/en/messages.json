@@ -1,0 +1,8 @@
+{
+    "tweetWithUrlAndText": {
+        "message": "Tweet with URL and selected text"
+    },
+    "tweetWithUrl": {
+        "message": "Tweet with URL"
+    }
+}

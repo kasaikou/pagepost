@@ -1,0 +1,8 @@
+{
+    "tweetWithUrlAndText": {
+        "message": "選択したテキストを引用してツイート"
+    },
+    "tweetWithUrl": {
+        "message": "このページをツイート"
+    }
+}
